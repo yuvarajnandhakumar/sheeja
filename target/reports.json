@@ -1,0 +1,53 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "CreateAccount",
+        "description": "",
+        "id": "thermofisher;createaccount",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy12.click(Unknown Source)\r\n\tat commonMethod.CommonAction.click(CommonAction.java:77)\r\n\tat StepDefinition.StepDef.click_createAccount(StepDef.java:16)\r\n\tat ✽.click createAccount(src/test/resources/Feature/CreateAccount.feature:8)\r\n",
+              "duration": 19825700,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "click createAccount",
+            "match": {
+              "location": "StepDef.click_createAccount()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createaccfeature"
+          },
+          {
+            "name": "@createaccountscenario"
+          }
+        ]
+      }
+    ],
+    "name": "ThermoFisher",
+    "description": "",
+    "id": "thermofisher",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/CreateAccount.feature",
+    "tags": [
+      {
+        "name": "@createaccfeature",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
